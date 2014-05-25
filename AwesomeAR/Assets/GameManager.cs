@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour {
 	void Start () {
 		instance = this;
 		player = 1;
+
 		set1 = false;
 		set2 = false;
 		set3 = false;
@@ -67,8 +68,6 @@ public class GameManager : MonoBehaviour {
 		set7 = false;
 		set8 = false;
 		set9 = false;
-
-
 
 		p1hit1 = false;
 		p1hit2 = false;
